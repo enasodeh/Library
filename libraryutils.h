@@ -6,12 +6,6 @@
 #include "magazine.h"
 #include "storage.h"
 
-/*
- LibraryUtils - utility functions for persistence and simple sorting/searching.
-
- TYPE is BOOK or MAGAZINE
-*/
-
 namespace LibraryUtils {
 
 bool saveToFile(const QString &path, const Storage<LibraryItem> &storage);
